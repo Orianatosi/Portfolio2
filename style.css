@@ -58,11 +58,19 @@ li {
 
 /* responsive */
 
+
+
 @media (max-width:1100px) {
     ul {
         display: none;
     }
 }
+
+
+
+
+/* HOVER */
+
 
 .hover-color {
     transition: 0.1s 0.2s;
@@ -87,8 +95,8 @@ main {
     justify-content: center;
     align-items: center;
     justify-content:space-around;
-    padding: 120px 80px 120px;
-    margin-top: 80px;
+    padding: 180px 80px 120px;
+    /* margin-top: 80px; */
     
     flex-direction: row;
     
@@ -140,6 +148,13 @@ main {
     font-weight: 700;
     font-family: 'Cabin Condensed', sans-serif;
         color: #c7e977;
+}
+
+@media (max-width:550px) {
+    .texto-nombre {
+        font-size: 60px;
+        font-weight: 700;
+    }
 }
 
 .sub-textos {
@@ -233,8 +248,8 @@ max-width: 100%;
 .article-icon:hover {
     border: 1px solid #00ff08;
     -webkit-box-shadow: 0px 0px 70px -34px rgba(114,250,73,1);
--moz-box-shadow: 0px 0px 70px -34px rgba(114,250,73,1);
-box-shadow: 0px 0px 70px -34px rgba(114,250,73,1);
+    -moz-box-shadow: 0px 0px 70px -34px rgba(114,250,73,1);
+    box-shadow: 0px 0px 70px -34px rgba(114,250,73,1);
     }
 
 /* SECCION FRASE */
