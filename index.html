@@ -32,21 +32,21 @@
         <nav class="barra-de-navegacion">
             <ul >
                 <li>
-                    <a href="#Hola">
+                    <a class="hover-color" href="#Hola">
                         Hola 
                             </a>
                         </li>
                 <li>
-                    <a href="#Conocimientos">
+                    <a class="hover-color" href="#Conocimientos">
                         Conocimientos
                             </a>
                         </li>
                 <li >
-                    <a href="#proyectos">
+                    <a class="hover-color" href="#proyectos">
                         Proyectos
                     </a>
                 </li>
-                <li class="elemento-contacto">
+                <li class="elemento-contacto hover-color-contenedor">
                             <a href="#contacto">
                                 Contacto
                             </a>
@@ -69,12 +69,14 @@
                 <p class="sub-textos">
                     Desarrolladora y artista electrónica
                 </p>
-                <a class="link-loquehago">
+                <a class="link-loquehago hover-color">
                     lo que hago
                 </a>
             </div>
                 
-            <img class="imagen-presentacion" src="https://img.freepik.com/vector-gratis/ilustracion-concepto-chica-disenador_114360-259.jpg?w=740&t=st=1684001087~exp=1684001687~hmac=3d51bf56b79e63617d021f6bb65057ba1323c379354d143480885d57a08c7bee " alt="imagen de mujer sentada con netbook y un gato">
+            <div class="contenedor-imagen">
+                <img class="imagen-presentacion" src="https://www.kindpng.com/picc/m/220-2204985_star-overlay-png-transparent-star-overlays-png-png.png" alt="imagen de mujer sentada con netbook y un gato">
+            </div>
             
         </section>
     </main>
@@ -90,7 +92,7 @@
         
         
             <div class="contenedor-articles">
-                <article class="article-icon "> 
+                <article class="article-icon hover-color"> 
                     <i class="fa-brands fa-html5"></i>
                     <h3 class="nombres-conocimientos">
                         HTML 5
@@ -153,17 +155,17 @@
             
             <div class="contenedor-articles reajuste-clase">
                 <a class="article-icon box-ilustraciones "> 
-                    <img class="ilustaciones" src="portfolionuevo.avif" alt="captura del portfolio"> 
+                    <img class="ilustaciones" src="portfolio.png" alt="captura del portfolio"> 
                     <h3 class="nombres-proyectos">
                         Portfolio
                     </h3>
                 </a>
-                <article class="article-icon box-ilustraciones ">
+                <a class="article-icon box-ilustraciones ">
                     <img class="ilustaciones" src="generadormemes.png" alt="emoticon">
                     <h3 class="nombres-proyectos">
                         Generador de memes
                     </h3>
-                </article>
+                </a>
                 <article class="article-icon box-ilustraciones">
                     <img class="ilustaciones" src="match.png" alt="ilustacion de jostick">
                     <h3 class="nombres-proyectos">
@@ -189,7 +191,7 @@
                     </h3>
                 </article>
                     <article class="article-icon box-ilustraciones">
-                        <img class="ilustaciones pochoclos" src="pochoclos.avif" alt="ilustracion de pochoclos">
+                        <img class="ilustaciones pochoclos" src="pochoclos.png" alt="ilustracion de pochoclos">
                         <h3 class="nombres-proyectos">
                             Buscador de peliculas
                         </h3>
@@ -198,53 +200,111 @@
         </div>
     </section>
 
-<section>
-    <div class="contenedor-contactame">
-        <h3>
-            Contactame
-        </h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo     nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam     hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam     eligendi.
-        </p>
-        <ul>
-            <li>
-                <a href="https://github.com/Orianatosi">
-                    <i class="fa-brands fa-github-alt"></i>
-                    Orianatosi
-                </a> 
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/oriana-tosi-49b06a195/">
-                    <i class="fa-brands fa-linkedin"></i>
-                    Oriana Tosi
-                </a> 
-            </li>
-            <li>
-                <a href="">
-                    <i class="fa-solid fa-envelope"></i>
-                    Orianamagalitosi@gmail.com
-                </a> 
-            </li>
-        </ul>
-    </div>
-    <div>
-        <h3>
-            Escribime
-        </h3>
-        <form id="form-text">
-            <label for="input-name"> Nombre *</label>
-            <input id="input-name" type="text" placeholder="p.ej.:Johanna">
-            <label for="input-lastname"> Apellido *</label>
-            <input id="input-lastname" type="text" placeholder="p.ej.:Rodriguez" >
-            <label for="input-email"> Email *</label>
-            <input id="input-email" type="text" placeholder="p.ej.:Johannarodriguez@gmail.com" >
-            <label for="submit"></label>
-            <input type="submit">
-        </form>
+<section class="seccion-contacto">
+    <div class="contenedor-contacto">
+        <div class="contenedor-lista">
+            <h3 class="titulos-secciones">
+                Contactame
+            </h3>
+            <p class="sub-textos text-left">
+                Lorem ipsum dolor sit amet consectetur     adipisicing elit. Eaque quo     nobis voluptatum     tenetur! Id, nesciunt? Modi quasi repudiandae     quam     hic quo, qui cumque nam voluptates,     ipsam, tempora eaque numquam     eligendi.
+            </p>
+            <ul class="lista-webs">
+                <li>
+                    <a href="https://github.com/Orianatosi" class="is-display-flex ">
+                        <i class="fa-brands fa-github-alt iconos-redes-ajuste"></i>
+                        Orianatosi
+                    </a> 
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/    oriana-tosi-49b06a195/" class="is-display-flex ">
+                        <i class="fa-brands fa-linkedin iconos-redes-ajuste"></i>
+                        Oriana Tosi
+                    </a> 
+                </li>
+                <li>
+                    <a href="" class="is-display-flex ">
+                        <i class="fa-solid fa-envelope iconos-redes-ajuste"></i>
+                        Orianamagalitosi@gmail.com
+                    </a> 
+                </li>
+            </ul>
+        </div>
         
+        <div class="contenedor-formulario">
+            <h3 class="titulos-secciones" >
+                Escribime
+            </h3>
+            <form id="form-text">
+                <div class="is-display-flex contenedor-nombres">
+                    <div class="is-display-flex direction-colum">
+                        <label for="input-name"> Nombre *</label>
+                        <input id="input-name" type="text" placeholder="p.ej.:Johanna">
+                    </div>
+                    <div class="is-display-flex direction-colum">
+                        <label for="input-lastname"> Apellido *</label>
+                        <input id="input-lastname" type="text" placeholder="p.ej.:Rodriguez" >
+                    </div>
+                </div>
+                <label for="input-email"> Email *</label>
+                <input id="input-email" type="text"     placeholder="p.ej.:Johannarodriguez@gmail.com" >
+                
+                <label for="input-mensaje"> Mensaje * </label>
+                <textarea id="input-mensaje" placeholder="Esciba     un mensaje aquí"> </textarea>
+                
+                <label for="input-submit"></label>
+                <input class="elemento-contacto" id="input-submit" type="submit">
+            </form>
+            
+        </div>
     </div>
 </section>
 
+<footer class="footer-contenedor is-display-flex">
+    <ul class="listas-footer is-display-flex">
+        <li>
+            <a class="hover-color" href="#Hola">
+                Hola 
+                    </a>
+                </li>
+        <li>
+            <a class="hover-color" href="#Conocimientos">
+                Conocimientos
+                    </a>
+                </li>
+        <li>
+            <a class="hover-color" href="#proyectos">
+                Proyectos
+            </a>
+        </li>
+        <li>
+                    <a class="hover-color" href="#contacto">
+                        Contacto
+                    </a>
+        </li>
+    </ul>
+    
+    <ul class="listas-footer is-display-flex">
+        <li>
+            <a href="https://github.com/Orianatosi" class="iconos-footer">
+                <i class="fa-brands fa-github-alt "></i>
+                
+            </a> 
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/    oriana-tosi-49b06a195/" class="iconos-footer">
+                <i class="fa-brands fa-linkedin"></i>
+                
+            </a> 
+        </li>
+        <li>
+            <a href="" class="iconos-footer">
+                <i class="fa-solid fa-envelope"></i>
+                
+            </a> 
+        </li>
+    </ul>
+</footer>
 </body>
 </html>
 
